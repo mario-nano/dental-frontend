@@ -1,0 +1,174 @@
+body {
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* MAIN ////////////////////////////////////////////////////////////// */
+
+main {
+  background-color: rgb(247, 244, 244);
+}
+
+main .content {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+main .pg-header {
+  padding: 60px 0;
+  background: #e6e6e6;
+}
+
+main .pg-header h1 {
+  color: rgb(119, 94, 94);
+  font-weight: 600;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/* BUTTON ////////////////////////////////////////////////////////////// */
+
+/* ABOUT ////////////////////////////////////////////////////////////// */
+
+.About h2 {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.About h2::after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  bottom: -6px;
+  height: 2px;
+  background-color: #666;
+  left: 0;
+}
+
+/* HEADER ////////////////////////////////////////////////////////////// */
+
+header {
+  padding: 20px 0;
+  background-color: rgb(124, 223, 248);
+}
+
+header .logo {
+  transform: rotate(-6deg);
+  transition: all 0.3s ease;
+}
+
+header .logo:hover {
+  transform: rotate(0deg);
+}
+
+header .brand {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Leckerli One", cursive;
+  background-color: #2d2d2d;
+  border-radius: 40px;
+  border-bottom: 2px solid #6294de;
+  text-shadow: 2px 2px 0px #000;
+}
+
+header .nav-link {
+  font-weight: 700;
+  color: rgb(11, 10, 10);
+  border-radius: 0;
+  font-size: 14px;
+}
+
+header .nav-link:hover {
+  color: #fff;
+}
+
+header .brand .img {
+  width: 25px;
+}
+
+/* FOOTER ////////////////////////////////////////////////////////////// */
+
+footer {
+  background-color: gray;
+  color: white;
+  padding: 10px 0;
+}
+
+footer .nav-link {
+  color: rgba(255, 255, 255, 1);
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0 10px;
+}
+
+footer .nav-link:hover {
+  color: rgb(0, 132, 255);
+}
+
+footer .nav-link.active {
+  color: rgb(9, 17, 253);
+  border-bottom: 1px solid #666;
+}
+
+footer .copyrights {
+  color: white;
+  text-align: center;
+  margin-top: 8px;
+}
+
+footer .copyrights a {
+  color: white;
+}
+
+footer .copyrights a:hover {
+  color: rgb(7, 7, 7);
+}
+
+#external-events {
+  position: absolute;
+  z-index: 2;
+
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  background: #eee;
+  overflow-y: scroll;
+}
+
+#external-events .fc-event {
+  margin: 1em 0;
+  cursor: move;
+}
+
+.calendar-container {
+  display: flex;
+  min-height: 100%;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.appointment-sidebar {
+  width: 300px;
+  line-height: 1.5;
+  background: #eaf9ff;
+  border-right: 1px solid #d3e2e8;
+}
+
+.appointment-sidebar-section {
+  padding: 2em 2em 1em 2em;
+}
+
+.appointment-main {
+  flex-grow: 1;
+  padding: 3em;
+}
+
+/*////////////////////////////////////////////////////////*/

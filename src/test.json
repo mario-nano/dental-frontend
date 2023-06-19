@@ -1,0 +1,212 @@
+{
+  "data": [
+    {
+      "_id": 1,
+      "name": "Dentistrano",
+
+      "owner": {
+        "first": "Markus",
+        "last": "andersson"
+      },
+      "doctors": 2,
+      "address": "Planetgatan",
+      "city": "Gothenburg",
+      "coordinates": {
+        "longitude": "57.711871",
+        "latitude": "11.947372"
+      },
+      "bussinessHours": {
+        "monday": {
+          "start": {
+            "hour": "9",
+            "minute": "00"
+          },
+          "end": {
+            "hour": "5",
+            "minute": "00"
+          }
+        },
+        "tuesday": {
+          "start": {
+            "hour": "9",
+            "minute": "00"
+          },
+          "end": {
+            "hour": "5",
+            "minute": "00"
+          }
+        },
+        "wednsday": {
+          "start": {
+            "hour": "9",
+            "minute": "00"
+          },
+          "end": {
+            "hour": "5",
+            "minute": "00"
+          }
+        },
+        "thursday": {
+          "start": {
+            "hour": "9",
+            "minute": "00"
+          },
+          "end": {
+            "hour": "5",
+            "minute": "00"
+          }
+        },
+        "friday": {
+          "start": {
+            "hour": "9",
+            "minute": "00"
+          },
+          "end": {
+            "hour": "5",
+            "minute": "00"
+          }
+        }
+      }
+    },
+
+    {
+      "_id": 2,
+
+      "name": "FixUrDent",
+
+      "owner": {
+        "first": "andersson",
+        "last": "andersson"
+      },
+      "doctors": 3,
+      "address": "Götgatan 10",
+      "city": "Gothenburg",
+      "coordinates": {
+        "longitude": "57.708845",
+        "latitude": "11.968057"
+      },
+      "bussinessHours": {
+        "monday": {
+          "start": {
+            "hour": "9",
+            "minute": "00"
+          },
+          "end": {
+            "hour": "5",
+            "minute": "00"
+          }
+        },
+        "tuesday": {
+          "start": {
+            "hour": "9",
+            "minute": "00"
+          },
+          "end": {
+            "hour": "5",
+            "minute": "00"
+          }
+        },
+        "wednsday": {
+          "start": {
+            "hour": "9",
+            "minute": "00"
+          },
+          "end": {
+            "hour": "5",
+            "minute": "00"
+          }
+        },
+        "thursday": {
+          "start": {
+            "hour": "9",
+            "minute": "00"
+          },
+          "end": {
+            "hour": "5",
+            "minute": "00"
+          }
+        },
+        "friday": {
+          "start": {
+            "hour": "9",
+            "minute": "00"
+          },
+          "end": {
+            "hour": "5",
+            "minute": "00"
+          }
+        }
+      }
+    },
+
+    {
+      "_id": 3,
+
+      "name": "Dentie",
+
+      "owner": {
+        "first": "Micheal",
+        "last": "jackson"
+      },
+      "doctors": 2,
+      "address": "Drottninggatan 77",
+      "city": "Gothenburg",
+      "coordinates": {
+        "longitude": "57.706673",
+        "latitude": "11.974108"
+      },
+      "bussinessHours": {
+        "monday": {
+          "start": {
+            "hour": "9",
+            "minute": "00"
+          },
+          "end": {
+            "hour": "5",
+            "minute": "00"
+          }
+        },
+        "tuesday": {
+          "start": {
+            "hour": "9",
+            "minute": "00"
+          },
+          "end": {
+            "hour": "5",
+            "minute": "00"
+          }
+        },
+        "wednsday": {
+          "start": {
+            "hour": "9",
+            "minute": "00"
+          },
+          "end": {
+            "hour": "5",
+            "minute": "00"
+          }
+        },
+        "thursday": {
+          "start": {
+            "hour": "9",
+            "minute": "00"
+          },
+          "end": {
+            "hour": "5",
+            "minute": "00"
+          }
+        },
+        "friday": {
+          "start": {
+            "hour": "9",
+            "minute": "00"
+          },
+          "end": {
+            "hour": "5",
+            "minute": "00"
+          }
+        }
+      }
+    }
+  ]
+}
